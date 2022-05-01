@@ -54,6 +54,6 @@ def teste_peso(n):
 while True:
     peso = float(input("Digite o peso da carga: "))
     if peso < 0:
-        print("Programa finalizado!")
+        print("Programa finalizado!!")
         break
     teste_peso(peso)
