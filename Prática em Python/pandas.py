@@ -1,7 +1,7 @@
 import pandas as pd
 
 #carrega arquivo para dataframe Pandas
-dados = pd.read_csv("Credit.csv")
+dados = pd.read_csv("Credit.csv", sep=";")
 #formato
 dados.shape()
 #resumo estatístico de colunas numéricas
